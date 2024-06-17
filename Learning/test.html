@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Test</title>
+  <script>
+    import { BButton } from 'bootstrap-vue';
+    
+    export default {
+      components: {
+        BButton,
+      },
+    };
+    </script>
+</head>
+<body>
+    <h1>Heading </h1>
+      
+      <b-button v-b-tooltip.hover.right="'I am the content'" title="Password" variant="primary">
+        <img src="question_mark.jpg" height="20" alt="Question Mark">
+      </b-button>
+    
+</body>
+</html>

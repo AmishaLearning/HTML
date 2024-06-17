@@ -1,0 +1,35 @@
+1. Websites Frontend --> HTML(Structure/Layout) CSS(Style) JS(Logic)
+2. HTML --> .html
+3. !DOCTYPE html --> Means we are using HTMl 5
+4. <head> --> things that we don't want to display on the webpage
+5. <body>--> things are to be displayed on the web page
+6. name="viewport" tells us that our website should be responsive....means how will it look on every device
+7. <br /> --> used for next line and doesn't requre closing tag
+8. Comments-- <!--Something-->
+9. HTML is not case sensitive
+10. <br /> --> It's an empty tag it doesn't have any attributes
+11. Bold, Italic, Underline tag --> <b> </b>, <i> </i>, <u> </u>
+12. <big> </big>, <small> </small> --> Used to display big and small text on your page
+13. <hr> --> Used to display a horizontal ruler, used to separate content
+14. <sub></sub> , <sup></sup>--> Subscript and superscript tag
+15. <pre> --> Used to display text as it is(without ignoring spaces & next line)..when we want our own spaces and next line format
+16. Page Layout Techniques : a-Semantic Tag(By name we can get the functionality--header, footer) b- Non-Semantic Tags (can't recognize functionality by its name--div, span)
+17. Main Tag : Section Tag -- Used for diving into sections, Article Tag -- For writing something, Aside Tag -- Content aside main content(ads)
+18. <a href="" target="_main">Google</a> -- opens the another webpages who's link is provided on the main page to a new tab
+19. Div Tag : Div is a container used for other HTML elements(contains other tags in it)--Block Elements (takes full width)
+20. Span Tag : Span is also a container used for other HTML elements--Inline elements (takes width as per size)
+21. List in HTML : unordered(in form of bullet points) <ul></ul>, Ordered(in form of numbers are any specific sequence) <ol></ol>...<li></li>--stands for list items
+22. tables in HTML: <tr> -- used to display table row, <td> -- used to display table data, <th> -- Used to display table header
+23. Caption in tables : <caption></caption> 
+24. thead & tbody : <thead></thead>--to wrap table head....<tbody></tbody>--to wrap table data
+25. Form in HTML --<form></form>.. Forms are used to collect data from the user (eg: sign up, login, help requests, contact me)
+26. Form Element : Input --<input type="text" placeholder="Enter Name">
+27. Label : <label></label>--provides lable for the boxes..If we use label even by clicking on the text we can select the radio button(name of buttons should be same id can be different)
+28. Class & id 
+29. Checkbox : When we need to select multiple options
+30. Select : Used for showing Dropdown
+31. iframe Tag : website inside website 
+32. Video Tag : For Playing video on website
+33. controls : shows the play pause
+34. controls loop : once video is finished it runs again automatically
+35. controls autoplay : plays automatically after finishing
