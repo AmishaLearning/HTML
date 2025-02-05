@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #414141;
+        }
+    </style>
+</head>
+<body>
+    <!-- <img src="image.png" alt="No image"> -->
+    <img src="https://images.pexels.com/photos/1323550/pexels-photo-1323550.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" width="100px" alt="No image">
+    <br/>
+    <img src="../01_images/image.png" width="100px" alt="No image">
+
+    <picture>
+        <source media="(min-width: 650px)" srcset="../01_images/image.png"/>
+        <source media="(min-width: 460px)" srcset="../01_images/image.png"/>
+        <img src="../01_images/image.png", alt="No Image">
+    </picture>
+
+    <!-- an image map generator -->
+    <img src="../01_images/image_2.png" usemap="#image-map">
+
+    <map name="image-map">
+        <area onclick="one()" target="" alt="" title="" href="" coords="244,35,446,55" shape="rect">
+        <area onclick="two()" target="" alt="" title="" href="" coords="168,308,338,366" shape="rect">
+    </map>
+
+    <script>
+        function one(){
+            alert("You Clicked on Name!!")
+        }
+        function two(){
+            alert("You Clicked on Upload!!")
+        }
+        
+    </script>
+</body>
+</html>
